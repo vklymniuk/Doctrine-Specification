@@ -1,6 +1,6 @@
 <?php
 
-namespace Igdr\DoctrineSpecification;
+namespace VK\DoctrineSpecification;
 
 use Doctrine\ORM\QueryBuilder;
 

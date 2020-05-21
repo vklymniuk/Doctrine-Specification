@@ -1,6 +1,6 @@
 <?php
 
-namespace Igdr\DoctrineSpecification\ResultModifier;
+namespace VK\DoctrineSpecification\ResultModifier;
 
 use Doctrine\ORM\AbstractQuery;
 

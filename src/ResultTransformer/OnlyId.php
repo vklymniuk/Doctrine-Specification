@@ -1,6 +1,6 @@
 <?php
 
-namespace Igdr\DoctrineSpecification\ResultTransformer;
+namespace VK\DoctrineSpecification\ResultTransformer;
 
 /**
  * Fetch from the result only values with id key which pass as constuctor parameter

@@ -1,5 +1,5 @@
 {
-    "name": "igdr/doctrine-specification",
+    "name": "vklymniuk/doctrine-specification",
     "type": "library",
     "description": "Specification Pattern for your Doctrine repositories",
     "keywords": [
@@ -13,16 +13,20 @@
         {
             "name": "Igor Drozd",
             "email": "drozd.igor@gmail.com"
+        },
+        {
+            "name": "Vladimir Klymniuk",
+            "email": "v.klymniuk@gmail.com"
         }
     ],
     "require": {
-        "php": ">=7.1",
-        "doctrine/orm": "^2.6",
-        "symfony/property-access": "^4.0"
+        "php": ">=7.2",
+        "doctrine/orm": "^2.7",
+        "symfony/property-access": "^5.0"
     },
     "autoload": {
         "psr-4": {
-            "Igdr\\DoctrineSpecification\\": "src/"
+            "VK\\DoctrineSpecification\\": "src/"
         }
     }
 }

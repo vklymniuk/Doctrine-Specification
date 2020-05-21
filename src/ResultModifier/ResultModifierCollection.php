@@ -1,6 +1,6 @@
 <?php
 
-namespace Igdr\DoctrineSpecification\ResultModifier;
+namespace VK\DoctrineSpecification\ResultModifier;
 
 use Doctrine\ORM\AbstractQuery;
 
@@ -31,7 +31,7 @@ class ResultModifierCollection implements ResultModifierInterface
             if (!$child instanceof ResultModifierInterface) {
                 throw new \InvalidArgumentException(
                     sprintf(
-                        'Child passed to ResultModifierCollection must be an instance of Igdr\DoctrineSpecification\Result\ResultModifier, but instance of %s found',
+                        'Child passed to ResultModifierCollection must be an instance of VK\DoctrineSpecification\Result\ResultModifier, but instance of %s found',
                         get_class($child)
                     )
                 );

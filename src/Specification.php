@@ -1,21 +1,21 @@
 <?php
 
-namespace Igdr\DoctrineSpecification;
+namespace VK\DoctrineSpecification;
 
-use Igdr\DoctrineSpecification\Expr\CompositeExpression;
-use Igdr\DoctrineSpecification\Expr\ExpressionBuilder;
-use Igdr\DoctrineSpecification\Expr\ExpressionInterface;
-use Igdr\DoctrineSpecification\QueryModifier\Count;
-use Igdr\DoctrineSpecification\QueryModifier\GroupBy;
-use Igdr\DoctrineSpecification\QueryModifier\Having;
-use Igdr\DoctrineSpecification\QueryModifier\InnerJoin;
-use Igdr\DoctrineSpecification\QueryModifier\LeftJoin;
-use Igdr\DoctrineSpecification\QueryModifier\Limit;
-use Igdr\DoctrineSpecification\QueryModifier\Offset;
-use Igdr\DoctrineSpecification\QueryModifier\OrderBy;
-use Igdr\DoctrineSpecification\QueryModifier\QueryModifierInterface;
-use Igdr\DoctrineSpecification\QueryModifier\Select;
-use Igdr\DoctrineSpecification\Visitor\VisitorInterface;
+use VK\DoctrineSpecification\Expr\CompositeExpression;
+use VK\DoctrineSpecification\Expr\ExpressionBuilder;
+use VK\DoctrineSpecification\Expr\ExpressionInterface;
+use VK\DoctrineSpecification\QueryModifier\Count;
+use VK\DoctrineSpecification\QueryModifier\GroupBy;
+use VK\DoctrineSpecification\QueryModifier\Having;
+use VK\DoctrineSpecification\QueryModifier\InnerJoin;
+use VK\DoctrineSpecification\QueryModifier\LeftJoin;
+use VK\DoctrineSpecification\QueryModifier\Limit;
+use VK\DoctrineSpecification\QueryModifier\Offset;
+use VK\DoctrineSpecification\QueryModifier\OrderBy;
+use VK\DoctrineSpecification\QueryModifier\QueryModifierInterface;
+use VK\DoctrineSpecification\QueryModifier\Select;
+use VK\DoctrineSpecification\Visitor\VisitorInterface;
 
 /**
  * Specification
@@ -288,7 +288,7 @@ class Specification implements SpecificationInterface
     /**
      * @param QueryModifierInterface[] $queryModifiers
      *
-     * @return \Igdr\DoctrineSpecification\SpecificationInterface
+     * @return \VK\DoctrineSpecification\SpecificationInterface
      */
     public function mergeQueryModifiers(array $queryModifiers): SpecificationInterface
     {

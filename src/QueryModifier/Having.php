@@ -1,9 +1,9 @@
 <?php
 
-namespace Igdr\DoctrineSpecification\QueryModifier;
+namespace VK\DoctrineSpecification\QueryModifier;
 
 use Doctrine\ORM\QueryBuilder;
-use Igdr\DoctrineSpecification\Expr\ExpressionInterface;
+use VK\DoctrineSpecification\Expr\ExpressionInterface;
 
 /**
  * Adds to the query HAVING construction

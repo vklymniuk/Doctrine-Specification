@@ -1,6 +1,6 @@
 <?php
 
-namespace Igdr\DoctrineSpecification\Expr;
+namespace VK\DoctrineSpecification\Expr;
 
 use Doctrine\ORM\Query\Expr\Comparison as DoctrineComparison;
 use Doctrine\ORM\QueryBuilder;

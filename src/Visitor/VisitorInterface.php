@@ -1,9 +1,9 @@
 <?php
 
-namespace Igdr\DoctrineSpecification\Visitor;
+namespace VK\DoctrineSpecification\Visitor;
 
-use Igdr\DoctrineSpecification\Specification;
-use Igdr\DoctrineSpecification\SpecificationInterface;
+use VK\DoctrineSpecification\Specification;
+use VK\DoctrineSpecification\SpecificationInterface;
 
 /**
  * VisitorInterface

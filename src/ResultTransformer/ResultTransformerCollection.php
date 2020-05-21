@@ -1,6 +1,6 @@
 <?php
 
-namespace Igdr\DoctrineSpecification\ResultTransformer;
+namespace VK\DoctrineSpecification\ResultTransformer;
 
 /**
  * Collection of transformers

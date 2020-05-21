@@ -1,12 +1,12 @@
 <?php
 
-namespace Igdr\DoctrineSpecification;
+namespace VK\DoctrineSpecification;
 
 use Doctrine\ORM\EntityRepository;
 use Doctrine\ORM\NoResultException;
 use Doctrine\ORM\QueryBuilder;
-use Igdr\DoctrineSpecification\ResultModifier\ResultModifierInterface;
-use Igdr\DoctrineSpecification\ResultTransformer\ResultTransformerInterface;
+use VK\DoctrineSpecification\ResultModifier\ResultModifierInterface;
+use VK\DoctrineSpecification\ResultTransformer\ResultTransformerInterface;
 
 /**
  * This class allows you to use a Specification to query entities.

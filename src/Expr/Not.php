@@ -1,6 +1,6 @@
 <?php
 
-namespace Igdr\DoctrineSpecification\Expr;
+namespace VK\DoctrineSpecification\Expr;
 
 use Doctrine\ORM\QueryBuilder;
 
@@ -15,7 +15,7 @@ class Not extends AbstractExpr
     private $expression;
 
     /**
-     * @param \Igdr\DoctrineSpecification\Expr\ExpressionInterface $expression
+     * @param \VK\DoctrineSpecification\Expr\ExpressionInterface $expression
      */
     public function __construct(ExpressionInterface $expression)
     {

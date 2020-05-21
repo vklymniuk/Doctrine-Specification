@@ -1,6 +1,6 @@
 <?php
 
-namespace Igdr\DoctrineSpecification\ResultTransformer;
+namespace VK\DoctrineSpecification\ResultTransformer;
 
 /**
  * Reorders result collection by ids which are provided in constructor

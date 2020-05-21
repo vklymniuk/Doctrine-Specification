@@ -1,12 +1,12 @@
 <?php
 
-namespace Igdr\DoctrineSpecification;
+namespace VK\DoctrineSpecification;
 
 use Doctrine\Common\Collections\Selectable;
 use Doctrine\Common\Persistence\ObjectRepository;
 use Doctrine\ORM\QueryBuilder;
-use Igdr\DoctrineSpecification\ResultModifier\ResultModifierInterface;
-use Igdr\DoctrineSpecification\ResultTransformer\ResultTransformerInterface;
+use VK\DoctrineSpecification\ResultModifier\ResultModifierInterface;
+use VK\DoctrineSpecification\ResultTransformer\ResultTransformerInterface;
 
 /**
  * This interface should be used by an EntityRepository implementing the Specification pattern.
@@ -64,7 +64,7 @@ interface EntitySpecificationRepositoryInterface extends ObjectRepository, Selec
     /**
      * Get query builder with applied specification
      *
-     * @param \Igdr\DoctrineSpecification\SpecificationInterface $specification
+     * @param \VK\DoctrineSpecification\SpecificationInterface $specification
      *
      * @return \Doctrine\ORM\QueryBuilder
      */

@@ -1,11 +1,11 @@
 <?php
 
-namespace Igdr\DoctrineSpecification;
+namespace VK\DoctrineSpecification;
 
-use Igdr\DoctrineSpecification\Expr\ExpressionBuilder;
-use Igdr\DoctrineSpecification\Expr\ExpressionInterface;
-use Igdr\DoctrineSpecification\QueryModifier\QueryModifierInterface;
-use Igdr\DoctrineSpecification\Visitor\VisitorInterface;
+use VK\DoctrineSpecification\Expr\ExpressionBuilder;
+use VK\DoctrineSpecification\Expr\ExpressionInterface;
+use VK\DoctrineSpecification\QueryModifier\QueryModifierInterface;
+use VK\DoctrineSpecification\Visitor\VisitorInterface;
 
 /**
  * SpecificationInterface

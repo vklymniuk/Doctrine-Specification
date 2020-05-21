@@ -1,6 +1,6 @@
 <?php
 
-namespace Igdr\DoctrineSpecification\Expr;
+namespace VK\DoctrineSpecification\Expr;
 
 /**
  * Adds a condition: value > field

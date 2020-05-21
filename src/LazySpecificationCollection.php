@@ -1,13 +1,13 @@
 <?php
 
-namespace Igdr\DoctrineSpecification;
+namespace VK\DoctrineSpecification;
 
 use Doctrine\Common\Collections\AbstractLazyCollection;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\QueryBuilder;
-use Igdr\DoctrineSpecification\QueryModifier\QueryModifierInterface;
-use Igdr\DoctrineSpecification\ResultModifier\ResultModifierInterface;
-use Igdr\DoctrineSpecification\ResultTransformer\ResultTransformerInterface;
+use VK\DoctrineSpecification\QueryModifier\QueryModifierInterface;
+use VK\DoctrineSpecification\ResultModifier\ResultModifierInterface;
+use VK\DoctrineSpecification\ResultTransformer\ResultTransformerInterface;
 
 /**
  * Class LazySpecificationCollection

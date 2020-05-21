@@ -1,6 +1,6 @@
 <?php
 
-namespace Igdr\DoctrineSpecification\ResultTransformer;
+namespace VK\DoctrineSpecification\ResultTransformer;
 
 use Symfony\Component\PropertyAccess\PropertyAccess;
 

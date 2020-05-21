@@ -1,6 +1,6 @@
 <?php
 
-namespace Igdr\DoctrineSpecification\Expr;
+namespace VK\DoctrineSpecification\Expr;
 
 /**
  * Factory class for the specifications.
@@ -108,7 +108,7 @@ class ExpressionBuilder
      * @param mixed       $value
      * @param string|null $dqlAlias
      *
-     * @return \Igdr\DoctrineSpecification\Expr\Comparison
+     * @return \VK\DoctrineSpecification\Expr\Comparison
      */
     public function lt(string $field, $value, string $dqlAlias = null): Comparison
     {
@@ -120,7 +120,7 @@ class ExpressionBuilder
      * @param mixed       $value
      * @param string|null $dqlAlias
      *
-     * @return \Igdr\DoctrineSpecification\Expr\Comparison
+     * @return \VK\DoctrineSpecification\Expr\Comparison
      */
     public function lte(string $field, $value, string $dqlAlias = null): Comparison
     {
@@ -132,7 +132,7 @@ class ExpressionBuilder
      * @param mixed       $value
      * @param string|null $dqlAlias
      *
-     * @return \Igdr\DoctrineSpecification\Expr\Comparison
+     * @return \VK\DoctrineSpecification\Expr\Comparison
      */
     public function gt(string $field, $value, string $dqlAlias = null): Comparison
     {
@@ -144,7 +144,7 @@ class ExpressionBuilder
      * @param mixed       $value
      * @param string|null $dqlAlias
      *
-     * @return \Igdr\DoctrineSpecification\Expr\Comparison
+     * @return \VK\DoctrineSpecification\Expr\Comparison
      */
     public function gte(string $field, $value, string $dqlAlias = null): Comparison
     {
