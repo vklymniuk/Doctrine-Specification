@@ -66,7 +66,7 @@ return $qb->where('r.ended = 0')
 ```
 
 ```php
-use Igdr\DoctrineSpecification\Specification;
+use VK\DoctrineSpecification\Specification;
 
 // Using the lib
 $spec = Specification::expr()->andX(
@@ -177,8 +177,8 @@ class AdvertRepository extends EntitySpecificationRepository
     public function myQuery(Company $company)
     {
         $qb = $this->em->getRepository('RecruitmentBundle:Advert')->createQueryBuilder('r');
-        $this->filterAdvertsWeShouldClose($qb)
-        $this->filterOwnedByCompany($qb, $company)
+        $this->filterAdvertsWeShouldClose($qb);
+        $this->filterOwnedByCompany($qb, $company);
 
         return $qb->getQuery()->getResult();
     }
@@ -189,7 +189,7 @@ class AdvertRepository extends EntitySpecificationRepository
 Edit your doctrine settings to register default repository
 ```yaml
     orm:
-        default_repository_class: Igdr\DoctrineSpecification\EntitySpecificationRepository
+        default_repository_class: VK\DoctrineSpecification\EntitySpecificationRepository
         auto_generate_proxy_classes: "%kernel.debug%"
         naming_strategy: doctrine.orm.naming_strategy.underscore
         auto_mapping: true
