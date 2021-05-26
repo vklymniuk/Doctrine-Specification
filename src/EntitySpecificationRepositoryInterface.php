@@ -3,7 +3,7 @@
 namespace VK\DoctrineSpecification;
 
 use Doctrine\Common\Collections\Selectable;
-use Doctrine\Common\Persistence\ObjectRepository;
+use Doctrine\Persistence\ObjectRepository;
 use Doctrine\ORM\QueryBuilder;
 use VK\DoctrineSpecification\ResultModifier\ResultModifierInterface;
 use VK\DoctrineSpecification\ResultTransformer\ResultTransformerInterface;
