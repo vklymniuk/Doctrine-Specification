@@ -1,5 +1,5 @@
 {
-    "name": "vklymniuk/doctrine-specification",
+    "name": "symfony-ext/doctrine-specification",
     "type": "library",
     "description": "Specification Pattern for your Doctrine repositories",
     "keywords": [
